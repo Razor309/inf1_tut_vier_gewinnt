@@ -11,8 +11,15 @@ Um das Spiel zu starten, führen Sie die folgenden Schritte aus:
 
 Öffnen Sie die Konsole.
 1. Navigieren Sie zum Projektverzeichnis.
-2. Kompilieren Sie die C-Datei: gcc main.c -o connect_four
-3. Führen Sie das erstellte Programm aus: ./connect_four
+2. Kompilieren Sie die C-Datei
+```bash
+gcc main.c -o connect_four
+``` 
+4. Führen Sie das erstellte Programm aus:
+```bash
+./connect_four
+```
+
    
 ## Spielregeln
 1. Das Spielfeld hat 6 Reihen und 7 Spalten.
