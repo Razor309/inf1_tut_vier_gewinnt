@@ -28,7 +28,11 @@ gcc main.c -o connect_four
 
 ## Doxygen-Dokumentation
 Die Doxygen-Dokumentation für den C-Code kann leicht generiert werden. Stellen Sie sicher, dass Doxygen auf Ihrem System installiert ist, und führen Sie dann den folgenden Befehl aus:
-
+```bash
+doxygen -g
+```
+Dies hat die Konfigurationsdatei erstellt.
+Jetzt kann Doxygen mit folgendem Befehl ausgeführt werden:
 ```bash
 doxygen Doxyfile
 ```
